@@ -4,39 +4,29 @@
 
 </head>
 <body>
-	<h1>Mon formulaire</h1>
+	<h1>Dresseur de pokemon</h1>
+	<br>
+	<p>Les champs marqués d'une * sont obligatoires</p>
 
 <form action="#">
 <fieldset>
-<legend>Votre Nom et Prénom</legend>
-<p>Nom : <input name="A" type="Text" value="Nom ?"/></p>
-<p>Prénom : <input name="B" type="Text" value="Prénom ?"/></p>
+<legend>Nouveau dresseur</legend>
+<p>Nom *<input name="A" type="Text" value=""/></p>
+<br>
+<p>Description <textarea id="description" name="Description" rows="4" cols="50"></textarea></p>
+	<br>
+	<p>Equipe</p>
+	<p>Rouge <input name="Rouge" type="radio" value="Rouge"/></p>
+	<p>Jaune <input name="Jaune" type="radio" value="Jaune"/></p>
+	<p>Bleu <input name="Bleu" type="radio" value="Bleu"/></p>
+	<br>
+
+	<p>Anniversaire *</p>
+	<input type="date" name="anniversaire"/>
+	<br>
+
+	<p><input type="submit" value="Envoyer"/></p>
 </fieldset>
-<p>Mr <input name="C" type="radio" value="Mr"/> 
-Mme<input name="C" type="radio" value="Mme"/></p>
-<p>
-Chien <input name="D" type="checkbox" value="Chien"/>
-Chat <input name="E" type="checkbox" value="Chat"/>
-Poisson <input name="F" type="checkbox" value="Poisson"/>
-</p>
-<p>
-<select name="G" multiple>
-	<option>Pain</option>
-	<option>Citron</option>
-	<option>Orange</option>
-</select>
-</p>
-<p>
-<textarea rows="3" cols="30	" name="H">
-Laisez nous un commentaire
-</textarea>
-
-</p>
-<p><input type="submit" value="Envoyer" />
-<input type="reset"/>
-</p>
-
-
 </form>
 
 </body>
