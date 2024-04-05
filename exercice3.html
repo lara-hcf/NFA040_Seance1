@@ -1,6 +1,11 @@
 <html>
   <head>
     <title>Exercice 3</title>
+    <style>
+      .r {
+        width:500px
+      }
+    </style>
   </head>
   <body>
     <form action="#"> 
@@ -9,10 +14,10 @@
       <p>Ressaisir votre <br> mot de passe : <input type="text"/></p>
       <p>OS prefere : 
         <input type="radio"/>Windows XP <br>
-      <input type="radio"/>Windows Vista <br>
-      <input type="radio"/>MacOS X <br>
-      <input type="radio"/>Linux <br>
-      <input type="radio"/>Autre</p>
+      <input type="radio" class="r"/>Windows Vista <br>
+      <input type="radio" class="r"/>MacOS X <br>
+      <input type="radio" class="r"/>Linux <br>
+      <input type="radio"class="r"/>Autre</p>
 
       <p>Vous possedez : <input type="checkbox"/> Un ordinateur de bureau <br>
       <input type="checkbox"/> Un portable <br>
@@ -27,6 +32,7 @@
         <option value="prive">Prive</option>
         <option value="retraite">Retraite</option>
       </select>
+      <br>
       <input type="submit" value="S'inscrire !"/>
     </form>
   </body>
