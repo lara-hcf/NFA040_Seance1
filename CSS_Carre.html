@@ -2,23 +2,37 @@
 <head>
     <title>Exercice CSS</title>
     <style>
-        html {background-color: black}
-		#Madiv1{color:white;
-		        background-color: green;
-				position: absolute;
-				left:25px;
-				top:25px;
-				widht:100px;
-				height:100px;
-				}
+        body {
+		background-color: black;
+		color: white;
+	}
+	header {
+		border: white 1px solid;
+	}
+	#Madiv1 {
+		float: left; 
+		background-color: green;
+	}
+	#bloc2 {
+		float: right;
+		background-color: yellow;
+	}
+	#bloc3 {
+		float: left;
+		background-color: red;
+	}
+	#bloc3 {
+		float: right;
+		background-color: blue;
+	}
     </style>
 </head>
 <body>
     <header>
         <div id="Madiv1">En haut à gauche</div>
-        <div>En haut à droite</div>
-        <div>En bas à droite</div>
-        <div>En bas à gauche</div>
+        <div id="bloc2">En haut à droite</div>
+        <div id="bloc3">En bas à droite</div>
+        <div id="bloc4">En bas à gauche</div>
     </header>
 </body>
 </html>
