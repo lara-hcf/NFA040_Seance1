@@ -4,7 +4,7 @@ INSTALLATION DE VOTRE ENVIRONNEMENT DE TRAVAIL NFA040
 Quelles sont les notions qui vont être abordées au cours de cet atelier ?
 Cet atelier a pour objectif de vous apprendre à mettre en place place votre environnement de travail dans le cadre de module NFA040. 
 Vous allez créer votre hébergement de site, découvrir les Actions et les Secrets GitHUB pour au final mettre en service et exploiter un site Internet.
-Large programme mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail.
+Large programme mais tout à fait accessible et ne nécessitant pas de base technique particulière. Juste de l'observation et de la rigueur dans votre travail.   
 
 -------------------------------------------------------------------------------------------------------
 Séquence 1 : GitHUB
